@@ -1,0 +1,88 @@
+/* Sticky Navigation Bar  */
+#NavBar {
+    position: sticky;
+    top: 0;
+    overflow:hidden;
+    background-color: white;
+    padding-left: 0;
+}
+
+#NavBar a {
+    float: left;
+    display: block;
+    font-size: 28px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    position: center;
+}
+
+#NavBar a:hover {
+    background-color: #182b49;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    margin-top: 0;
+}
+
+/* Class for Section 1 and Section 3 */
+.classSection1 {
+    background-color: rgb(245, 240, 230);
+    width: 100%;
+    display: inline-block;
+    scroll-margin: 167px;
+    width: 100%;
+}
+
+/* Class for Section 2 */
+.classSection2 {
+    background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+    color: white;
+    width: 100%;
+    display: inline-block;
+    scroll-margin: 135px;
+}
+
+/* Section 3 content */
+.wrapper {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.one {
+    color: white;
+    background-color: #182b49;
+    max-height: 500px;
+    overflow: scroll;
+    padding: 15px;
+    font-size: 20px;
+}
+
+/* Image in Section 1 */
+#tritons {
+    padding-left: 20px
+}
+
+/* Image in Section 2 */
+#colleges {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Section sub-headings */
+h3 {
+    padding-left: 20px;
+}
+
+/* Lorem Ipsum Paragraphs */
+p {
+    padding-left: 20px;
+    font-size: 20px;
+}
